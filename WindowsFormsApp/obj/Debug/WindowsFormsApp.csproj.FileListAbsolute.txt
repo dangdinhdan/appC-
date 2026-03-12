@@ -1,0 +1,13 @@
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.AssemblyReference.cache
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.LoginForm.resources
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.MainForm.resources
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.QLLopForm.resources
+D:\Workspace\c#\3_06_26\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.QLSinhVienForm.resources

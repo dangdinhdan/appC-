@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\qllopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\qllopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\qlsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\qlsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\qlsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\qlsinhvienform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\qllopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\qllopform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|d:\\workspace\\c#\\3_06_26\\windowsformsapp\\windowsformsapp\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{72B0B22F-D5AA-457A-AEAE-287D90B4ABD2}|WindowsFormsApp\\WindowsFormsApp.csproj|solutionrelative:windowsformsapp\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\LoginForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T05:39:48.35Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\MainForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs [Design]*",
+              "RelativeToolTip": "WindowsFormsApp\\MainForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:57:58.26Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\MainForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\MainForm.cs*",
+              "RelativeToolTip": "WindowsFormsApp\\MainForm.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAASwCcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:58:28.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\LoginForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\LoginForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T05:42:36.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLLopForm.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLLopForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\QLLopForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLLopForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\QLLopForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:34:38.103Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QLSinhVienForm.cs [Design]",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLSinhVienForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\QLSinhVienForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLSinhVienForm.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp\\QLSinhVienForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:03:47.882Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QLSinhVienForm.cs",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLSinhVienForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\QLSinhVienForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLSinhVienForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\QLSinhVienForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAhwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:06:03.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QLLopForm.cs",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLLopForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\QLLopForm.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\QLLopForm.cs",
+              "RelativeToolTip": "WindowsFormsApp\\QLLopForm.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAawDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:48:00.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T06:20:49.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginForm.resx",
+              "DocumentMoniker": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.resx",
+              "RelativeDocumentMoniker": "WindowsFormsApp\\LoginForm.resx",
+              "ToolTip": "D:\\Workspace\\c#\\3_06_26\\WindowsFormsApp\\WindowsFormsApp\\LoginForm.resx",
+              "RelativeToolTip": "WindowsFormsApp\\LoginForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-12T06:20:46.704Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
