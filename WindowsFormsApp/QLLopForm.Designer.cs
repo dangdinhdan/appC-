@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.dgvLop = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_TenLop = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_MaLop = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_Them = new System.Windows.Forms.Button();
             this.btn_sua = new System.Windows.Forms.Button();
@@ -43,8 +43,13 @@
             this.btn_clear = new System.Windows.Forms.Button();
             this.btn_out = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btn_search = new System.Windows.Forms.Button();
+            this.txt_search = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLop)).BeginInit();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -55,29 +60,31 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listView1);
-            this.groupBox1.Location = new System.Drawing.Point(314, 68);
+            this.groupBox1.Controls.Add(this.dgvLop);
+            this.groupBox1.Location = new System.Drawing.Point(314, 120);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(474, 381);
+            this.groupBox1.Size = new System.Drawing.Size(474, 329);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "danh sách lớp quản lý";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // listView1
+            // dgvLop
             // 
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(19, 32);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(419, 332);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.dgvLop.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLop.Location = new System.Drawing.Point(6, 21);
+            this.dgvLop.Name = "dgvLop";
+            this.dgvLop.RowHeadersWidth = 51;
+            this.dgvLop.RowTemplate.Height = 24;
+            this.dgvLop.Size = new System.Drawing.Size(451, 291);
+            this.dgvLop.TabIndex = 0;
+            this.dgvLop.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_2);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txt_TenLop);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.txt_MaLop);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(12, 68);
             this.groupBox2.Name = "groupBox2";
@@ -86,13 +93,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin lớp quản lý";
             // 
-            // textBox2
+            // txt_TenLop
             // 
-            this.textBox2.Location = new System.Drawing.Point(88, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(171, 22);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txt_TenLop.Location = new System.Drawing.Point(88, 91);
+            this.txt_TenLop.Name = "txt_TenLop";
+            this.txt_TenLop.Size = new System.Drawing.Size(171, 22);
+            this.txt_TenLop.TabIndex = 3;
+            this.txt_TenLop.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label2
             // 
@@ -104,12 +111,13 @@
             this.label2.Text = "Tên lớp QL:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // txt_MaLop
             // 
-            this.textBox1.Location = new System.Drawing.Point(88, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 22);
-            this.textBox1.TabIndex = 1;
+            this.txt_MaLop.Location = new System.Drawing.Point(88, 49);
+            this.txt_MaLop.Name = "txt_MaLop";
+            this.txt_MaLop.Size = new System.Drawing.Size(171, 22);
+            this.txt_MaLop.TabIndex = 1;
+            this.txt_MaLop.TextChanged += new System.EventHandler(this.txt_MaLop_TextChanged);
             // 
             // label1
             // 
@@ -129,6 +137,7 @@
             this.btn_Them.TabIndex = 3;
             this.btn_Them.Text = "Thêm";
             this.btn_Them.UseVisualStyleBackColor = true;
+            this.btn_Them.Click += new System.EventHandler(this.btn_Them_Click);
             // 
             // btn_sua
             // 
@@ -138,6 +147,7 @@
             this.btn_sua.TabIndex = 4;
             this.btn_sua.Text = "Sửa";
             this.btn_sua.UseVisualStyleBackColor = true;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
             // 
             // btn_xoa
             // 
@@ -147,6 +157,7 @@
             this.btn_xoa.TabIndex = 5;
             this.btn_xoa.Text = "Xóa";
             this.btn_xoa.UseVisualStyleBackColor = true;
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
             // 
             // btn_clear
             // 
@@ -156,6 +167,7 @@
             this.btn_clear.TabIndex = 6;
             this.btn_clear.Text = "Clear";
             this.btn_clear.UseVisualStyleBackColor = true;
+            this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
             // btn_out
             // 
@@ -178,11 +190,39 @@
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btn_search);
+            this.groupBox3.Controls.Add(this.txt_search);
+            this.groupBox3.Location = new System.Drawing.Point(314, 68);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(474, 55);
+            this.groupBox3.TabIndex = 9;
+            this.groupBox3.TabStop = false;
+            // 
+            // btn_search
+            // 
+            this.btn_search.Location = new System.Drawing.Point(382, 21);
+            this.btn_search.Name = "btn_search";
+            this.btn_search.Size = new System.Drawing.Size(75, 23);
+            this.btn_search.TabIndex = 1;
+            this.btn_search.Text = "Tìm kiếm";
+            this.btn_search.UseVisualStyleBackColor = true;
+            this.btn_search.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txt_search
+            // 
+            this.txt_search.Location = new System.Drawing.Point(33, 21);
+            this.txt_search.Name = "txt_search";
+            this.txt_search.Size = new System.Drawing.Size(334, 22);
+            this.txt_search.TabIndex = 0;
+            // 
             // QLLopForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_out);
             this.Controls.Add(this.btn_clear);
@@ -196,8 +236,11 @@
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLop)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -206,11 +249,10 @@
 
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_MaLop;
+        private System.Windows.Forms.TextBox txt_TenLop;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_Them;
         private System.Windows.Forms.Button btn_sua;
@@ -218,5 +260,9 @@
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Button btn_out;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btn_search;
+        private System.Windows.Forms.TextBox txt_search;
+        private System.Windows.Forms.DataGridView dgvLop;
     }
 }

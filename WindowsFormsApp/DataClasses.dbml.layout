@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="60ad2bbf-8439-448d-acbc-96c8379e4467" absoluteBounds="0.75, 1.375, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/DataClassesDataContext/tbl_LopQL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b2b2353-a542-4705-8135-39ee0f6f60b4" absoluteBounds="0.765, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff45c254-2641-487e-8c79-4eccadd67580" absoluteBounds="3.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DataClassesDataContext/tbl_SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d7c4709-8f49-46ae-ab9f-7e833f2833e6" absoluteBounds="3.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.35659912109375); (3.5 : 2.35659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClassesDataContext/tbl_LopQL/tbl_LopQL_tbl_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="60ad2bbf-8439-448d-acbc-96c8379e4467" />
+        <classShapeMoniker Id="ff45c254-2641-487e-8c79-4eccadd67580" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

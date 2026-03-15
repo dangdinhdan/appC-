@@ -44,7 +44,7 @@ namespace WindowsFormsApp
 
             if (username == "admin" && password == "1")
             {
-                new MainForm().Show();
+                new MainForm().ShowDialog();
                 this.Hide();
             }
             else

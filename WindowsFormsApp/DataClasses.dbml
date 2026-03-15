@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLSV" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-C7B1JIE;Initial Catalog=QLSV;Persist Security Info=True;User ID=sa;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="WindowsFormsApp.Properties.Settings" SettingsPropertyName="QLSVConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbl_LopQL" Member="tbl_LopQLs">
+    <Type Name="tbl_LopQL">
+      <Column Name="MaLop" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenLop" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="create_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="update_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="delete_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="isDelete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tbl_LopQL_tbl_SinhVien" Member="tbl_SinhViens" ThisKey="MaLop" OtherKey="MaLop" Type="tbl_SinhVien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_SinhVien" Member="tbl_SinhViens">
+    <Type Name="tbl_SinhVien">
+      <Column Name="MaSV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenSV" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="MaLop" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GioiTinh" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="create_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="update_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="delete_at" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="isDelete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tbl_LopQL_tbl_SinhVien" Member="tbl_LopQL" ThisKey="MaLop" OtherKey="MaLop" Type="tbl_LopQL" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
